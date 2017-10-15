@@ -1,0 +1,254 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  box-shadow: 0 1px 3px #000;
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  background: #FFF;
+}
+
+header > div {
+  display: inline-block;
+  width: 33%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+header .contrataciones h2 {
+  color: #FF6B40;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+header .contrataciones p {
+  font-size: 1.8em;
+  line-height: 1.1em;
+}
+
+header .contrataciones p a {
+  text-decoration: none;
+  color: #004B5E;
+}
+
+.hero {
+  position: relative;
+  background: url("../images/back.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 4em 0;
+}
+
+.hero:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: rgba(0,0,0,0.2);
+}
+
+.hero .columnas {
+  display: table;
+  position: relative;
+  z-index: 10;
+}
+
+.hero .columnas > div {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+.hero .izquierda {
+  color: #FFF;
+}
+
+.hero h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.hero h1 span {
+  display: block;
+}
+
+.hero h1 span.main {
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1em;
+  letter-spacing: -1px;
+}
+
+.hero h1 span.strong strong {
+  font-size: 1.3em;
+}
+
+.hero .intro {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.hero .copy {
+  color: #FF6B40;
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 1.2em 0 0;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.hero .derecha {
+  text-align: center;
+}
+
+.contacto {
+  display: inline-block;
+  background: rgba(255,255,255,0.8);
+  padding: 2em;
+  text-align: center;
+  color: #004B5E;
+  max-width: 380px;
+}
+
+.contacto h2 {
+  font-size: 1.6em;
+  line-height: 1em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 0.5em;
+}
+
+.contacto p {
+  position: relative;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.contacto p:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  background: #004B5E;
+  content: "";
+}
+
+.contacto span {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.contacto input,
+.contacto select {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1.2em;
+  color: #333;
+  border-radius: 3px;
+  border: solid 1px #AAA;
+  transition: all ease-in-out 0.2s;
+}
+
+.contacto input[type="submit"] {
+  background: #FF6A40;
+  color: #FFF;
+  border: none;
+  font-weight: 600;
+  padding: 1em;
+  cursor: pointer;
+  border-bottom: solid 5px #E85531;
+}
+
+.contacto input[type="submit"]:hover {
+  background: #E85531;
+}
+
+.presentacion {
+  text-align: center;
+  background: #D9D9D9;
+  color: #004B5E;
+  padding: 4em 0;
+}
+
+.presentacion h2 {
+  font-size: 2.2em;
+  line-height: 1.2em;
+  max-width: 480px;
+  margin: 0 auto 0.5em;;
+}
+
+.presentacion p {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  max-width: 780px;
+  margin: 0 auto 1em;
+  color: #555;
+}
+
+.presentacion .boton {
+  display: block;
+}
+
+.presentacion .cta {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4em 3em;
+  color: #FFF;
+  background: #FF6B40;
+  font-weight: 600;
+  border-bottom: solid 2px #E85531;
+  border-radius: 5px;
+}
+
+.presentacion .cta:hover {
+  background: #E85531;
+}
+
+.servicios {
+  background: #114B5F;
+  color: #FFF;
+}
+
+footer {
+  background: #3D3D3D;
+  color: #FFF;
+}
